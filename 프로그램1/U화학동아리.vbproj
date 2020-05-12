@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF3DA668-DE8B-45A4-8BC7-3D0024436950}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>U화학동아리.My.MyApplication</StartupObject>
+    <RootNamespace>U화학동아리</RootNamespace>
+    <AssemblyName>U화학동아리</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\바탕화면\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/U화학동아리/</UpdateUrl>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>U화학동아리.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>U화학동아리.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ag.Designer.vb">
+      <DependentUpon>Ag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Al.Designer.vb">
+      <DependentUpon>Al.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Al.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Al2_SO4_3.Designer.vb">
+      <DependentUpon>Al2_SO4_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Al2_SO4_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Al2O3.Designer.vb">
+      <DependentUpon>Al2O3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Al2O3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Au.Designer.vb">
+      <DependentUpon>Au.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Au.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2H2.Designer.vb">
+      <DependentUpon>C2H2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C2H2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2H4.Designer.vb">
+      <DependentUpon>C2H4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C2H4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2H6.Designer.vb">
+      <DependentUpon>C2H6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C2H6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaCl2.Designer.vb">
+      <DependentUpon>CaCl2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaCl2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaSO4.Designer.vb">
+      <DependentUpon>CaSO4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaSO4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CH4.Designer.vb">
+      <DependentUpon>CH4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CH4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cl2.Designer.vb">
+      <DependentUpon>Cl2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cl2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CO2.Designer.vb">
+      <DependentUpon>CO2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CO2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu.Designer.vb">
+      <DependentUpon>Cu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuSO4.Designer.vb">
+      <DependentUpon>CuSO4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CuSO4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fe.Designer.vb">
+      <DependentUpon>Fe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fe2O3.Designer.vb">
+      <DependentUpon>Fe2O3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fe2O3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="H2.Designer.vb">
+      <DependentUpon>H2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="H2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="H2O.Designer.vb">
+      <DependentUpon>H2O.vb</DependentUpon>
+    </Compile>
+    <Compile Include="H2O.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HCl.Designer.vb">
+      <DependentUpon>HCl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HCl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KCl.Designer.vb">
+      <DependentUpon>KCl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KCl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MgCl2.Designer.vb">
+      <DependentUpon>MgCl2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MgCl2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MgO.Designer.vb">
+      <DependentUpon>MgO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MgO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MgSO4.Designer.vb">
+      <DependentUpon>MgSO4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MgSO4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="N2.Designer.vb">
+      <DependentUpon>N2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="N2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="N2H4.Designer.vb">
+      <DependentUpon>N2H4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="N2H4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Na2CO3.Designer.vb">
+      <DependentUpon>Na2CO3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Na2CO3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NaNO3.Designer.vb">
+      <DependentUpon>NaNO3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NaNO3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NH3.Designer.vb">
+      <DependentUpon>NH3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NH3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NH4Cl.Designer.vb">
+      <DependentUpon>NH4Cl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NH4Cl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NO2.Designer.vb">
+      <DependentUpon>NO2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NO2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="O2.Designer.vb">
+      <DependentUpon>O2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="O2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SiO4.Designer.vb">
+      <DependentUpon>SiO4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SiO4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="규소.Designer.vb">
+      <DependentUpon>규소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="규소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="기타결합물질들.Designer.vb">
+      <DependentUpon>기타결합물질들.vb</DependentUpon>
+    </Compile>
+    <Compile Include="기타결합물질들.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="나트륨.Designer.vb">
+      <DependentUpon>나트륨.vb</DependentUpon>
+    </Compile>
+    <Compile Include="나트륨.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="네온.Designer.vb">
+      <DependentUpon>네온.vb</DependentUpon>
+    </Compile>
+    <Compile Include="네온.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="리튬.Designer.vb">
+      <DependentUpon>리튬.vb</DependentUpon>
+    </Compile>
+    <Compile Include="리튬.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="마그네슘.Designer.vb">
+      <DependentUpon>마그네슘.vb</DependentUpon>
+    </Compile>
+    <Compile Include="마그네슘.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="베릴륨.Designer.vb">
+      <DependentUpon>베릴륨.vb</DependentUpon>
+    </Compile>
+    <Compile Include="베릴륨.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="붕소.Designer.vb">
+      <DependentUpon>붕소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="붕소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="산소.Designer.vb">
+      <DependentUpon>산소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="산소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="소금.Designer.vb">
+      <DependentUpon>소금.vb</DependentUpon>
+    </Compile>
+    <Compile Include="소금.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="수소.Designer.vb">
+      <DependentUpon>수소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="수소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="시작.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="시작.Designer.vb">
+      <DependentUpon>시작.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="아르곤.Designer.vb">
+      <DependentUpon>아르곤.vb</DependentUpon>
+    </Compile>
+    <Compile Include="아르곤.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="알루미늄.Designer.vb">
+      <DependentUpon>알루미늄.vb</DependentUpon>
+    </Compile>
+    <Compile Include="알루미늄.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="염소.Designer.vb">
+      <DependentUpon>염소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="염소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="우라늄.Designer.vb">
+      <DependentUpon>우라늄.vb</DependentUpon>
+    </Compile>
+    <Compile Include="우라늄.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="우라늄동아리.Designer.vb">
+      <DependentUpon>우라늄동아리.vb</DependentUpon>
+    </Compile>
+    <Compile Include="우라늄동아리.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="이스터에그.Designer.vb">
+      <DependentUpon>이스터에그.vb</DependentUpon>
+    </Compile>
+    <Compile Include="이스터에그.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="인.Designer.vb">
+      <DependentUpon>인.vb</DependentUpon>
+    </Compile>
+    <Compile Include="인.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="제작자.Designer.vb">
+      <DependentUpon>제작자.vb</DependentUpon>
+    </Compile>
+    <Compile Include="제작자.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="주기율표.Designer.vb">
+      <DependentUpon>주기율표.vb</DependentUpon>
+    </Compile>
+    <Compile Include="주기율표.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="질소.Designer.vb">
+      <DependentUpon>질소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="질소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="칼륨.Designer.vb">
+      <DependentUpon>칼륨.vb</DependentUpon>
+    </Compile>
+    <Compile Include="칼륨.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="칼슘.Designer.vb">
+      <DependentUpon>칼슘.vb</DependentUpon>
+    </Compile>
+    <Compile Include="칼슘.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="탄소.Designer.vb">
+      <DependentUpon>탄소.vb</DependentUpon>
+    </Compile>
+    <Compile Include="탄소.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="플루오린.Designer.vb">
+      <DependentUpon>플루오린.vb</DependentUpon>
+    </Compile>
+    <Compile Include="플루오린.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="헬륨.Designer.vb">
+      <DependentUpon>헬륨.vb</DependentUpon>
+    </Compile>
+    <Compile Include="헬륨.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="화면1.Designer.vb">
+      <DependentUpon>화면1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="화면1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="화면2.Designer.vb">
+      <DependentUpon>화면2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="화면2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="화면3.Designer.vb">
+      <DependentUpon>화면3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="화면3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="참고문헌.Designer.vb">
+      <DependentUpon>참고문헌.vb</DependentUpon>
+    </Compile>
+    <Compile Include="참고문헌.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="화면4.Designer.vb">
+      <DependentUpon>화면4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="화면4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="황.Designer.vb">
+      <DependentUpon>황.vb</DependentUpon>
+    </Compile>
+    <Compile Include="황.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ag.resx">
+      <DependentUpon>Ag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Al.resx">
+      <DependentUpon>Al.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Al2O3.resx">
+      <DependentUpon>Al2O3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Al2_SO4_3.resx">
+      <DependentUpon>Al2_SO4_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Au.resx">
+      <DependentUpon>Au.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2H2.resx">
+      <DependentUpon>C2H2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2H4.resx">
+      <DependentUpon>C2H4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2H6.resx">
+      <DependentUpon>C2H6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaCl2.resx">
+      <DependentUpon>CaCl2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaSO4.resx">
+      <DependentUpon>CaSO4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH4.resx">
+      <DependentUpon>CH4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cl2.resx">
+      <DependentUpon>Cl2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CO2.resx">
+      <DependentUpon>CO2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu.resx">
+      <DependentUpon>Cu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuSO4.resx">
+      <DependentUpon>CuSO4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fe.resx">
+      <DependentUpon>Fe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fe2O3.resx">
+      <DependentUpon>Fe2O3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="H2.resx">
+      <DependentUpon>H2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="H2O.resx">
+      <DependentUpon>H2O.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HCl.resx">
+      <DependentUpon>HCl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KCl.resx">
+      <DependentUpon>KCl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MgCl2.resx">
+      <DependentUpon>MgCl2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MgO.resx">
+      <DependentUpon>MgO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MgSO4.resx">
+      <DependentUpon>MgSO4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N2.resx">
+      <DependentUpon>N2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N2H4.resx">
+      <DependentUpon>N2H4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Na2CO3.resx">
+      <DependentUpon>Na2CO3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaNO3.resx">
+      <DependentUpon>NaNO3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NH3.resx">
+      <DependentUpon>NH3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NH4Cl.resx">
+      <DependentUpon>NH4Cl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NO2.resx">
+      <DependentUpon>NO2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="O2.resx">
+      <DependentUpon>O2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SiO4.resx">
+      <DependentUpon>SiO4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="규소.resx">
+      <DependentUpon>규소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="기타결합물질들.resx">
+      <DependentUpon>기타결합물질들.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="나트륨.resx">
+      <DependentUpon>나트륨.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="네온.resx">
+      <DependentUpon>네온.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="리튬.resx">
+      <DependentUpon>리튬.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="마그네슘.resx">
+      <DependentUpon>마그네슘.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="베릴륨.resx">
+      <DependentUpon>베릴륨.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="붕소.resx">
+      <DependentUpon>붕소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="산소.resx">
+      <DependentUpon>산소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="소금.resx">
+      <DependentUpon>소금.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="수소.resx">
+      <DependentUpon>수소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="시작.resx">
+      <DependentUpon>시작.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="아르곤.resx">
+      <DependentUpon>아르곤.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="알루미늄.resx">
+      <DependentUpon>알루미늄.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="염소.resx">
+      <DependentUpon>염소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="우라늄.resx">
+      <DependentUpon>우라늄.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="우라늄동아리.resx">
+      <DependentUpon>우라늄동아리.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="이스터에그.resx">
+      <DependentUpon>이스터에그.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="인.resx">
+      <DependentUpon>인.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="제작자.resx">
+      <DependentUpon>제작자.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="주기율표.resx">
+      <DependentUpon>주기율표.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="질소.resx">
+      <DependentUpon>질소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="칼륨.resx">
+      <DependentUpon>칼륨.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="칼슘.resx">
+      <DependentUpon>칼슘.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="탄소.resx">
+      <DependentUpon>탄소.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="플루오린.resx">
+      <DependentUpon>플루오린.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="헬륨.resx">
+      <DependentUpon>헬륨.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="화면1.resx">
+      <DependentUpon>화면1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="화면2.resx">
+      <DependentUpon>화면2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="화면3.resx">
+      <DependentUpon>화면3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="참고문헌.resx">
+      <DependentUpon>참고문헌.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="화면4.resx">
+      <DependentUpon>화면4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="황.resx">
+      <DependentUpon>황.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sdfgh.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

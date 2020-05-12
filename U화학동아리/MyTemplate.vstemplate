@@ -1,0 +1,50 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>U화학동아리</Name>
+    <Description>&lt;사용할 수 있는 설명 없음&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>U화학동아리</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="U화학동아리.vbproj" File="vstg0001.vbproj" ReplaceParameters="true">
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="sdfgh.png">sdfgh.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="시작.vb">vstg0002.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="시작.Designer.vb">vstg0003.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="시작.resx">vstg0004.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="제작자.vb">vstg0005.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="제작자.Designer.vb">vstg0006.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="제작자.resx">vstg0007.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="참고문헌.vb">vstg0008.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="참고문헌.Designer.vb">vstg0009.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="참고문헌.resx">vstg0010.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면1.vb">vstg0011.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면1.Designer.vb">vstg0012.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면1.resx">vstg0013.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면2.vb">vstg0014.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면2.Designer.vb">vstg0015.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면2.resx">vstg0016.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면3.vb">vstg0017.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면3.Designer.vb">vstg0018.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="화면3.resx">vstg0019.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
